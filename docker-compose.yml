@@ -5,7 +5,7 @@ volumes:
 
 services:
   virtualradar:
-    build: .
+    image: felixtech/virtualradarserver:latest
     container_name: virtualradar
     volumes:
       - data:/root/.local/share/VirtualRadar
